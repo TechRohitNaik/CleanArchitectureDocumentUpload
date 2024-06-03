@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	  <IsPackable>true</IsPackable>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Title>TechRohit.LearningApp.ProductService</Title>
+	  <Version>1.0.0</Version>
+	  <Description>Package to return list of Products</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LearningApp.Domain\LearningApp.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="InfrastructureInterfaces\ExternalApi\" />
+    <Folder Include="InfrastructureInterfaces\Utilities\" />
+  </ItemGroup>
+
+</Project>
